@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Amriteshwar Dwivedi — Principal Data Analyst | SQL · Python · Power BI · NielsenIQ | Gurugram, India"/>
+  <title>Amriteshwar Dwivedi · Principal Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- Grain texture overlay -->
+  <div class="grain"></div>
+
+  <!-- Custom cursor -->
+  <div id="cursor-outer"></div>
+  <div id="cursor-inner"></div>
+
+  <!-- ──────── NAVBAR ──────── -->
+  <header id="site-header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-brand">
+        <div class="brand-monogram">AD</div>
+        <span class="brand-name">Amriteshwar <em>Dwivedi</em></span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link cta-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <button class="drawer-close" id="drawerClose">✕</button>
+    <ul>
+      <li><a href="#home" class="drawer-link">Home</a></li>
+      <li><a href="#about" class="drawer-link">About</a></li>
+      <li><a href="#experience" class="drawer-link">Experience</a></li>
+      <li><a href="#skills" class="drawer-link">Skills</a></li>
+      <li><a href="#projects" class="drawer-link">Projects</a></li>
+      <li><a href="#contact" class="drawer-link">Contact</a></li>
+    </ul>
+    <div class="drawer-socials">
+      <a href="https://www.linkedin.com/in/damriteshwar/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/damriteshwar" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <!-- ──────── HERO ──────── -->
+  <section id="home" class="hero">
+    <div class="hero-backdrop">
+      <div class="hb-circle c1"></div>
+      <div class="hb-circle c2"></div>
+      <div class="hb-dots"></div>
+    </div>
+
+    <div class="hero-layout">
+      <!-- Left: Text -->
+      <div class="hero-left">
+        <div class="hero-tag animate-in" style="--d:0.1s">
+          <span class="tag-dot"></span> Available for Opportunities
+        </div>
+        <h1 class="hero-headline animate-in" style="--d:0.25s">
+          <span class="hl-greeting">Hello, I'm</span>
+          <span class="hl-name">Amriteshwar</span>
+          <span class="hl-name italic">Dwivedi.</span>
+        </h1>
+        <p class="hero-role animate-in" style="--d:0.4s">
+          <span class="role-chip">Principal Data Analyst</span>
+          <span class="role-at">at</span>
+          <span class="role-company">NielsenIQ</span>
+        </p>
+        <p class="hero-desc animate-in" style="--d:0.55s">
+          5.5+ years turning enterprise-scale data into decisions.
+          <strong>SQL · Python · Power BI · ETL · Azure.</strong>
+          Building intelligence pipelines for U.S. retail &amp; automotive markets.
+        </p>
+
+        <!-- Key numbers -->
+        <div class="hero-kpis animate-in" style="--d:0.7s">
+          <div class="kpi">
+            <span class="kpi-n" data-target="400">0</span><span class="kpi-s">K+</span>
+            <p>Records/month automated</p>
+          </div>
+          <div class="kpi-sep"></div>
+          <div class="kpi">
+            <span class="kpi-n" data-target="15">0</span><span class="kpi-s">%</span>
+            <p>Error reduction via RCA</p>
+          </div>
+          <div class="kpi-sep"></div>
+          <div class="kpi">
+            <span class="kpi-n" data-target="9">0</span><span class="kpi-s"></span>
+            <p>Analysts mentored</p>
+          </div>
+          <div class="kpi-sep"></div>
+          <div class="kpi">
+            <span class="kpi-n" data-target="4">0</span><span class="kpi-s">🏆</span>
+            <p>Industry awards won</p>
+          </div>
+        </div>
+
+        <div class="hero-actions animate-in" style="--d:0.85s">
+          <a href="#projects" class="btn-fill">See My Work</a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+          <a href="Amriteshwar_Dwivedi_Resume_v2.docx" download class="btn-dl">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            CV
+          </a>
+        </div>
+
+        <div class="hero-links animate-in" style="--d:1s">
+          <a href="https://www.linkedin.com/in/damriteshwar/" target="_blank" class="hl-item">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            /in/damriteshwar
+          </a>
+          <a href="https://github.com/damriteshwar" target="_blank" class="hl-item">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            /damriteshwar
+          </a>
+          <a href="mailto:amriteshwar.dwivedi@outlook.com" class="hl-item">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            outlook.com
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Photo -->
+      <div class="hero-right animate-in" style="--d:0.3s">
+        <div class="photo-wrapper">
+          <div class="photo-glow"></div>
+          <div class="photo-border-ring"></div>
+          <img src="images/photo.jpg" alt="Amriteshwar Dwivedi" class="hero-photo" loading="eager"/>
+          <div class="photo-company-badge">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/NielsenIQ_logo.svg/200px-NielsenIQ_logo.svg.png" alt="NielsenIQ" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" class="badge-logo"/>
+            <span class="badge-text" style="display:none">NielsenIQ</span>
+          </div>
+          <div class="photo-location-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Gurugram, India
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-cue">
+      <div class="scroll-pill">
+        <div class="scroll-pill-inner"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ──────── AWARDS BAND ──────── -->
+  <div class="awards-band">
+    <div class="ab-track">
+      <div class="ab-item"><span>🏆</span> Client Obsessed Award — NielsenIQ · Apr 2026</div>
+      <div class="ab-sep">·</div>
+      <div class="ab-item"><span>🏆</span> Bravo Accountability Award — NielsenIQ · Jun 2025</div>
+      <div class="ab-sep">·</div>
+      <div class="ab-item"><span>🏆</span> GOA Award — NielsenIQ · Dec 2024</div>
+      <div class="ab-sep">·</div>
+      <div class="ab-item"><span>🏆</span> Insightful Explorer Award — GfK · Mar 2023</div>
+      <div class="ab-sep">·</div>
+      <div class="ab-item"><span>🏆</span> Client Obsessed Award — NielsenIQ · Apr 2026</div>
+      <div class="ab-sep">·</div>
+      <div class="ab-item"><span>🏆</span> Bravo Accountability Award — NielsenIQ · Jun 2025</div>
+    </div>
+  </div>
+
+  <!-- ──────── ABOUT ──────── -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sec-eyebrow">01 / About</span>
+        <h2 class="sec-title">Data Intelligence<br/>at Enterprise Scale</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-story reveal">
+          <p class="about-lead">Principal Data Analyst with 5.5+ years of progressive experience at GfK and NielsenIQ — engineering the data pipelines, dashboards, and analytical frameworks that power U.S. retail and automotive decisions.</p>
+          <p>My work sits at the intersection of engineering precision and business storytelling. I write complex SQL across multiple database systems, build Python automation that processes 400K+ records a month, and translate that output into Power BI dashboards that leadership actually acts on.</p>
+          <p>Beyond individual delivery, I lead and mentor cross-functional analyst teams, govern data quality programs, and architect scalable solutions. I care deeply about data integrity, process documentation, and ethical data practices.</p>
+          <div class="about-highlights">
+            <div class="ah-item">
+              <div class="ah-icon">🏫</div>
+              <div>
+                <strong>B.Tech — Computer Science Engineering (Data Science)</strong>
+                <span>Lovely Professional University · 2015–2019</span>
+              </div>
+            </div>
+            <div class="ah-item">
+              <div class="ah-icon">📍</div>
+              <div>
+                <strong>Gurugram, Haryana, India</strong>
+                <span>Open to remote &amp; hybrid opportunities</span>
+              </div>
+            </div>
+            <div class="ah-item">
+              <div class="ah-icon">📞</div>
+              <div>
+                <strong>+91 8427556959</strong>
+                <span>amriteshwar.dwivedi@outlook.com</span>
+              </div>
+            </div>
+          </div>
+          <a href="Amriteshwar_Dwivedi_Resume_v2.docx" download class="btn-fill" style="display:inline-flex;align-items:center;gap:0.5rem;margin-top:1.5rem">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Download Resume
+          </a>
+        </div>
+        <div class="about-cards reveal">
+          <div class="about-card">
+            <h3>Core Competencies</h3>
+            <div class="comp-list">
+              <span class="comp-chip">⚙️ SQL &amp; Python Analytics</span>
+              <span class="comp-chip">📊 Power BI Dashboards</span>
+              <span class="comp-chip">🔄 ETL Pipeline Engineering</span>
+              <span class="comp-chip">🔍 Exploratory Data Analysis</span>
+              <span class="comp-chip">📈 Statistical &amp; Predictive Modeling</span>
+              <span class="comp-chip">🛡️ Data Quality &amp; Governance</span>
+              <span class="comp-chip">🔬 Root Cause Analysis</span>
+              <span class="comp-chip">📣 Stakeholder Reporting</span>
+              <span class="comp-chip">👥 Team Leadership &amp; Mentorship</span>
+            </div>
+          </div>
+          <div class="about-card">
+            <h3>Certifications</h3>
+            <ul class="cert-list">
+              <li><span class="cert-bullet">▸</span> Data Science Course 2022: Complete Bootcamp</li>
+              <li><span class="cert-bullet">▸</span> Data Science with Python</li>
+              <li><span class="cert-bullet">▸</span> Machine Learning</li>
+              <li><span class="cert-bullet">▸</span> Data Science Orientation</li>
+            </ul>
+          </div>
+          <div class="about-stat-row">
+            <div class="asr-item"><span class="asr-n">5.5+</span><p>Years Experience</p></div>
+            <div class="asr-item"><span class="asr-n">2</span><p>Companies</p></div>
+            <div class="asr-item"><span class="asr-n">4</span><p>Awards</p></div>
+            <div class="asr-item"><span class="asr-n">9+</span><p>Mentored</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────── EXPERIENCE ──────── -->
+  <section id="experience" class="section exp-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sec-eyebrow">02 / Experience</span>
+        <h2 class="sec-title">5.5 Years of Growing<br/>Responsibility</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-dot active"></div>
+            <div class="tl-connector"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-top">
+              <div>
+                <h3>Principal Data Analyst</h3>
+                <p class="tl-company">NielsenIQ · Retail &amp; Automotive Data Intelligence · U.S. Market</p>
+              </div>
+              <div class="tl-right-meta">
+                <span class="tl-date">Jun 2024 – Present</span>
+                <span class="tl-badge now">Current</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Led operational efficiency across data workflows — reduced SLA breaches, improved order &amp; inventory tracking for U.S. retail accounts</li>
+              <li>Engineered complex SQL queries across MS Access, SQL Server, GRFE, and SIRVAL for large-scale retail data enrichment</li>
+              <li>Applied Python (Pandas, NumPy) for EDA and transformation of Automotive Retail Sales datasets</li>
+              <li><strong>Drove automation of 19% of client data volume (~400K records/month)</strong>, cutting turnaround time significantly</li>
+              <li><strong>Reduced data errors by 15%</strong> across U.S. operations through systematic Root Cause Analysis (RCA)</li>
+              <li>Built executive-level Power BI dashboards for real-time KPI &amp; business performance monitoring by senior leadership</li>
+              <li><strong>Managed and mentored a cross-functional team of 9 analysts</strong>, fostering a performance-driven culture</li>
+              <li>Documented team workflows and SOPs in SharePoint for seamless knowledge transfer</li>
+            </ul>
+            <div class="tl-tags">
+              <span>SQL</span><span>Python</span><span>Power BI</span><span>Azure</span>
+              <span>ETL</span><span>RCA</span><span>MS SQL Server</span><span>MS Access</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-dot"></div>
+            <div class="tl-connector"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-top">
+              <div>
+                <h3>Senior Data Analyst</h3>
+                <p class="tl-company">NielsenIQ · Consumer &amp; Retail Analytics</p>
+              </div>
+              <div class="tl-right-meta">
+                <span class="tl-date">Jul 2023 – Jun 2024</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Independently managed end-to-end analytics projects for key retail clients across U.S. and European markets</li>
+              <li>Automated SQL-based data extraction and validation workflows, <strong>reducing manual reporting effort by ~25%</strong></li>
+              <li>Built Power BI dashboards and standardized reporting templates adopted across multiple client accounts</li>
+              <li>Advanced EDA and trend analysis on large retail panel datasets — market share, shelf performance, category dynamics</li>
+              <li>Mentored junior analysts on SQL best practices, data validation, and effective data storytelling</li>
+              <li>Standardized metadata documentation and enforced quality checkpoints across the analytics pipeline</li>
+            </ul>
+            <div class="tl-tags">
+              <span>SQL</span><span>Power BI</span><span>EDA</span><span>Data Governance</span><span>Mentorship</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-dot"></div>
+            <div class="tl-connector"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-top">
+              <div>
+                <h3>Data Analyst</h3>
+                <p class="tl-company">GfK — a NielsenIQ Company · Consumer Panel &amp; Market Research Analytics</p>
+              </div>
+              <div class="tl-right-meta">
+                <span class="tl-date">Jul 2022 – Jul 2023</span>
+                <span class="tl-award-badge">🏆 Insightful Explorer Award</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Executed end-to-end analytics — ingestion, cleansing, insight generation — for consumer panel and retail POS datasets</li>
+              <li>Wrote and optimized SQL queries for multi-source retail data, improving pipeline efficiency and reducing query time</li>
+              <li>Designed interactive Power BI reports: market share, brand performance, category trend insights</li>
+              <li>Hypothesis testing and descriptive statistical analysis to validate data quality and identify anomalies</li>
+              <li>Recognized with <strong>Insightful Explorer Award (Mar 2023)</strong> for exemplary analytical depth and high-impact insights</li>
+            </ul>
+            <div class="tl-tags">
+              <span>SQL</span><span>Power BI</span><span>Statistics</span><span>Market Research</span><span>Excel</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-dot"></div>
+            <div class="tl-connector"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-top">
+              <div>
+                <h3>Junior Data Analyst</h3>
+                <p class="tl-company">GfK — a NielsenIQ Company · Data Operations &amp; Analytics</p>
+              </div>
+              <div class="tl-right-meta">
+                <span class="tl-date">Jan 2021 – Jun 2022</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Supported senior analysts in extracting, cleaning, and transforming retail and consumer panel data using SQL and Excel</li>
+              <li>Data validation and reconciliation across multiple sources to maintain dataset integrity</li>
+              <li>Built Excel-based reports and preliminary Power BI visualizations</li>
+              <li>Began developing Python skills (Pandas, NumPy) for data manipulation tasks</li>
+            </ul>
+            <div class="tl-tags"><span>SQL</span><span>Excel</span><span>Power BI</span><span>Python</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-left">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-top">
+              <div>
+                <h3>Data Associate</h3>
+                <p class="tl-company">GfK — a NielsenIQ Company · Data Operations · Gurugram</p>
+              </div>
+              <div class="tl-right-meta">
+                <span class="tl-date">Jun 2020 – Dec 2020</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Foundational data entry, validation, and quality control on retail and consumer panel datasets</li>
+              <li>Manual data collection, cleansing, and formatting activities to support upstream analytics</li>
+              <li>Developed working knowledge of GfK's data taxonomy and retail data structures</li>
+            </ul>
+            <div class="tl-tags"><span>Data QC</span><span>Excel</span><span>Data Taxonomy</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────── SKILLS ──────── -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sec-eyebrow">03 / Skills</span>
+        <h2 class="sec-title">A Full-Stack<br/>Data Toolkit</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-block reveal">
+          <div class="sb-label">🗄️ Languages &amp; Query</div>
+          <div class="bar-list">
+            <div class="bar-item"><div class="bi-top"><span>SQL</span><span class="bi-level">Expert · 95%</span></div><div class="bi-track"><div class="bi-fill" data-w="95" style="--accent:#e8a838"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>Python (Pandas, NumPy, Matplotlib, SciPy, Seaborn, TF)</span><span class="bi-level">Advanced · 85%</span></div><div class="bi-track"><div class="bi-fill" data-w="85" style="--accent:#4a9edd"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>R</span><span class="bi-level">Proficient · 70%</span></div><div class="bi-track"><div class="bi-fill" data-w="70" style="--accent:#41b38a"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>C</span><span class="bi-level">Familiar · 55%</span></div><div class="bi-track"><div class="bi-fill" data-w="55" style="--accent:#9b8fd4"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-label">📊 BI &amp; Visualization</div>
+          <div class="bar-list">
+            <div class="bar-item"><div class="bi-top"><span>Power BI</span><span class="bi-level">Expert · 95%</span></div><div class="bi-track"><div class="bi-fill" data-w="95" style="--accent:#f2c811"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>Excel (Pivot Tables, VBA, Advanced Functions)</span><span class="bi-level">Expert · 92%</span></div><div class="bi-track"><div class="bi-fill" data-w="92" style="--accent:#21a366"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>Google Data Studio</span><span class="bi-level">Advanced · 80%</span></div><div class="bi-track"><div class="bi-fill" data-w="80" style="--accent:#4285f4"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>Matplotlib / Seaborn / Plotly</span><span class="bi-level">Advanced · 83%</span></div><div class="bi-track"><div class="bi-fill" data-w="83" style="--accent:#e8a838"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-label">🗃️ Databases</div>
+          <div class="bar-list">
+            <div class="bar-item"><div class="bi-top"><span>Microsoft SQL Server</span><span class="bi-level">Expert · 93%</span></div><div class="bi-track"><div class="bi-fill" data-w="93" style="--accent:#cc2927"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>MySQL</span><span class="bi-level">Advanced · 85%</span></div><div class="bi-track"><div class="bi-fill" data-w="85" style="--accent:#4479a1"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>MS Access / MS Dynamics</span><span class="bi-level">Advanced · 88%</span></div><div class="bi-track"><div class="bi-fill" data-w="88" style="--accent:#a4373a"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>GRFE / SIRVAL / Newron Webservice</span><span class="bi-level">Proficient · 78%</span></div><div class="bi-track"><div class="bi-fill" data-w="78" style="--accent:#9b8fd4"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-block reveal">
+          <div class="sb-label">🧠 ML &amp; Statistics</div>
+          <div class="bar-list">
+            <div class="bar-item"><div class="bi-top"><span>Descriptive &amp; Inferential Statistics</span><span class="bi-level">Advanced · 88%</span></div><div class="bi-track"><div class="bi-fill" data-w="88" style="--accent:#41b38a"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>XGBoost / Random Forest</span><span class="bi-level">Advanced · 82%</span></div><div class="bi-track"><div class="bi-fill" data-w="82" style="--accent:#e8a838"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>Time Series Analysis &amp; Forecasting</span><span class="bi-level">Advanced · 80%</span></div><div class="bi-track"><div class="bi-fill" data-w="80" style="--accent:#4a9edd"></div></div></div>
+            <div class="bar-item"><div class="bi-top"><span>Hypothesis Testing / Regression</span><span class="bi-level">Advanced · 85%</span></div><div class="bi-track"><div class="bi-fill" data-w="85" style="--accent:#9b8fd4"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-block full-width reveal">
+          <div class="sb-label">⚡ Platforms, Tools &amp; Methodologies</div>
+          <div class="method-tags">
+            <span>Azure Cloud</span><span>Git / GitHub</span><span>JIRA</span>
+            <span>SharePoint</span><span>Jupyter Notebook</span><span>Google Sheets</span>
+            <span>Newron Webservice</span><span>MS Office Suite</span><span>EDA</span>
+            <span>ETL Engineering</span><span>Data Quality &amp; Governance</span>
+            <span>Root Cause Analysis</span><span>Data Storytelling</span>
+            <span>Agile / SDLC</span><span>Stakeholder Reporting</span>
+            <span>SOP Documentation</span><span>Cross-Functional Leadership</span>
+            <span>Metadata Management</span><span>BeautifulSoup (Web Scraping)</span>
+            <span>Statsmodels</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────── PROJECTS ──────── -->
+  <section id="projects" class="section proj-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sec-eyebrow">04 / Projects</span>
+        <h2 class="sec-title">Real Data.<br/>Real Impact.</h2>
+      </div>
+
+      <div class="proj-grid">
+
+        <!-- Project 1: EDA -->
+        <div class="proj-card big reveal">
+          <div class="pc-visual v-eda">
+            <div class="v-inner">
+              <div class="fake-bars">
+                <div class="fb" style="height:55%"></div><div class="fb" style="height:82%"></div>
+                <div class="fb" style="height:40%"></div><div class="fb" style="height:96%"></div>
+                <div class="fb" style="height:67%"></div><div class="fb" style="height:73%"></div>
+              </div>
+              <div class="v-label">7M+ Records</div>
+            </div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-tags"><span>Python</span><span>EDA</span><span>Visualization</span><span>Big Data</span></div>
+            <h3>EDA — 7M+ Global Companies Dataset</h3>
+            <p>Large-scale exploratory analysis on a 7M+ record global companies dataset. Uncovered statistically significant trends in company growth, geographic distribution, and workforce expansion patterns at enterprise scale.</p>
+            <div class="pc-metrics">
+              <div class="pm"><span class="pm-v">7M+</span><span class="pm-l">Records</span></div>
+              <div class="pm"><span class="pm-v">3</span><span class="pm-l">Viz Libraries</span></div>
+              <div class="pm"><span class="pm-v">Global</span><span class="pm-l">Coverage</span></div>
+            </div>
+            <p class="pc-detail">Built optimized data pipelines handling missing values, outliers, and quality issues. Executive-ready visualizations using Matplotlib, Seaborn, and Plotly.</p>
+            <div class="pc-stack"><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span></div>
+            <a href="https://github.com/damriteshwar" target="_blank" class="btn-fill pc-btn">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- Project 2: Fraud Detection -->
+        <div class="proj-card reveal">
+          <div class="pc-visual v-fraud">
+            <div class="v-inner">
+              <div class="fraud-ring">
+                <span class="fr-val">73%</span>
+                <span class="fr-sub">Accuracy</span>
+              </div>
+            </div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-tags"><span>ML</span><span>XGBoost</span><span>Classification</span></div>
+            <h3>Vehicle Loan Default &amp; Fraud Detection</h3>
+            <p>Analyzed 200K+ vehicle loan records to identify default risk drivers. XGBoost model outperforms Random Forest by 10% and Logistic Regression by 15% in fraud detection precision.</p>
+            <div class="pc-metrics">
+              <div class="pm"><span class="pm-v">200K+</span><span class="pm-l">Records</span></div>
+              <div class="pm"><span class="pm-v">73%</span><span class="pm-l">Accuracy</span></div>
+              <div class="pm"><span class="pm-v">+15%</span><span class="pm-l">vs LogReg</span></div>
+            </div>
+            <div class="pc-stack"><span>Python</span><span>XGBoost</span><span>Random Forest</span><span>Excel</span></div>
+            <a href="https://github.com/damriteshwar" target="_blank" class="btn-fill pc-btn">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- Project 3: Automation -->
+        <div class="proj-card reveal">
+          <div class="pc-visual v-auto">
+            <div class="v-inner">
+              <div class="auto-pipeline">
+                <div class="ap-node">SQL</div>
+                <div class="ap-arrow">→</div>
+                <div class="ap-node">Python</div>
+                <div class="ap-arrow">→</div>
+                <div class="ap-node">PBI</div>
+              </div>
+              <div class="v-label">400K+ / month</div>
+            </div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-tags"><span>ETL</span><span>Automation</span><span>Power BI</span><span>RCA</span></div>
+            <h3>Retail Data Automation Pipeline</h3>
+            <p>Engineered automated workflows processing ~400K records/month for U.S. retail accounts at NielsenIQ. Achieved 19% automation rate and 15% error reduction through systematic Root Cause Analysis.</p>
+            <div class="pc-metrics">
+              <div class="pm"><span class="pm-v">400K+</span><span class="pm-l">Records/mo</span></div>
+              <div class="pm"><span class="pm-v">19%</span><span class="pm-l">Automated</span></div>
+              <div class="pm"><span class="pm-v">15%</span><span class="pm-l">Errors cut</span></div>
+            </div>
+            <div class="pc-stack"><span>SQL</span><span>Python</span><span>Power BI</span><span>MS SQL Server</span><span>MS Access</span></div>
+            <a href="https://www.linkedin.com/in/damriteshwar/" target="_blank" class="btn-fill pc-btn">LinkedIn Profile →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────── CONTACT ──────── -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sec-eyebrow">05 / Contact</span>
+        <h2 class="sec-title">Let's Build Something<br/>with Data</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <p class="contact-intro">Whether you have a data challenge, an opportunity, or just want to connect — I'd love to hear from you.</p>
+          <div class="contact-links">
+            <a href="mailto:amriteshwar.dwivedi@outlook.com" class="cl-item">
+              <div class="cl-ic">✉️</div>
+              <div><span class="cl-l">Email</span><span class="cl-v">amriteshwar.dwivedi@outlook.com</span></div>
+            </a>
+            <a href="tel:+918427556959" class="cl-item">
+              <div class="cl-ic">📱</div>
+              <div><span class="cl-l">Phone</span><span class="cl-v">+91 8427556959</span></div>
+            </a>
+            <a href="https://www.linkedin.com/in/damriteshwar/" target="_blank" class="cl-item">
+              <div class="cl-ic">💼</div>
+              <div><span class="cl-l">LinkedIn</span><span class="cl-v">linkedin.com/in/damriteshwar</span></div>
+            </a>
+            <a href="https://github.com/damriteshwar" target="_blank" class="cl-item">
+              <div class="cl-ic">💻</div>
+              <div><span class="cl-l">GitHub</span><span class="cl-v">github.com/damriteshwar</span></div>
+            </a>
+            <div class="cl-item">
+              <div class="cl-ic">📍</div>
+              <div><span class="cl-l">Location</span><span class="cl-v">Gurugram, Haryana, India</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right reveal">
+          <form id="contactForm" class="cform">
+            <div class="cf-row">
+              <div class="cf-group"><label>Name</label><input type="text" placeholder="Your Name" required/></div>
+              <div class="cf-group"><label>Email</label><input type="email" placeholder="you@email.com" required/></div>
+            </div>
+            <div class="cf-group">
+              <label>Purpose</label>
+              <select>
+                <option value="">Select a topic…</option>
+                <option>Job Opportunity</option>
+                <option>Consulting Enquiry</option>
+                <option>Data Collaboration</option>
+                <option>General Connect</option>
+              </select>
+            </div>
+            <div class="cf-group"><label>Message</label><textarea rows="5" placeholder="Tell me about your data challenge or opportunity…" required></textarea></div>
+            <button type="submit" class="btn-fill btn-full">Send Message <span>→</span></button>
+            <div class="cf-success" id="cfSuccess">✓ Message sent! I'll respond within 24 hours.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-l">
+          <span class="footer-name">Amriteshwar Dwivedi</span>
+          <span class="footer-sub">Principal Data Analyst · NielsenIQ · Gurugram</span>
+        </div>
+        <p class="footer-copy">© 2025 · Built to showcase data-driven excellence</p>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/damriteshwar/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/damriteshwar" target="_blank">GitHub</a>
+          <a href="mailto:amriteshwar.dwivedi@outlook.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
